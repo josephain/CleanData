@@ -5,7 +5,7 @@ data_path <- "UCI HAR Dataset"
 
 library(plyr)
 
-## Create the folders, then  
+ 
 # download the file
 if(!file.exists(file)){
     
@@ -14,11 +14,7 @@ if(!file.exists(file)){
     download.file(url,file, mode = "wb")
     
 }
-
-if(!file.exists(result_folder)){
-    print("Creating result folder")
-    dir.create(result_folder)
-} 
+ 
 
 ##reads files from the zip 
 getFile <- function (name,cols = NULL){
