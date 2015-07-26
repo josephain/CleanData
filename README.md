@@ -1,12 +1,17 @@
 # CleanData
 Coursera Cleaning Data Course
 The Script performs the following actions
-*Downloads the ZIP package
-*Loads PLYR library. It assumes PLYR has already been installed
-*Reads the ZIP file by file using getFile function
-* The function crData is used to create data sets for both Train and Test data
-*These are bound into one data set, processed, and saved
-Data
+
+Downloads the ZIP package
+
+Loads PLYR library. It assumes PLYR has already been installed
+
+Reads the ZIP file by file using getFile function
+
+The function crData is used to create data sets for both Train and Test data.
+These are bound into one data set, processed, and saved to text file.
+
+DATA
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 
